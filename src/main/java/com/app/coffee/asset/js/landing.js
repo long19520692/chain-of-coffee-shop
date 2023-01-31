@@ -1,22 +1,17 @@
 // Set onclick function
-const joinUserBtn = document.querySelector('.js-join-user-btn')
-joinUserBtn.addEventListener('click', function() {
-    location.replace('../user_html/login.html');
-})
-
-const joinAdminBtn = document.querySelector('.js-join-admin-btn')
-joinAdminBtn.addEventListener('click', function() {
-    location.replace('../admin_html/login.html');
+const joinBtn = document.querySelector('.js-join-btn')
+joinBtn.addEventListener('click', function() {
+    location.replace('../html/login.html');
 })
 
 const aboutUsBtn = document.querySelector('.js-about-us-btn')
 aboutUsBtn.addEventListener('click', function() {
-    location.replace('../user_html/about_us.html');
+    location.replace('../html/about_us.html');
 })
 
 const contactBtn = document.querySelector('.js-contact-btn')
 contactBtn.addEventListener('click', function() {
-    location.replace('../user_html/contact.html');
+    location.replace('../html/contact.html');
 })
 
 const fbBtn = document.querySelector('.js-fb-btn')
